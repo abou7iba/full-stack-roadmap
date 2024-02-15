@@ -17,7 +17,23 @@ p
     color: tomato;
     font-weight: 600;
     font-size: 18px;
+    margin-top: 5%;
 
+
+}
+.center
+{
+    text-align: center;
+}
+.center span
+{
+    color: #0B60B0;
+}
+.center .spaical
+{
+    color: tomato;
+    font-size: 20px;
+    text-align: center;
 }
 .container
 {
@@ -133,23 +149,6 @@ header a
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 table
 {
     width: 100%;
@@ -176,9 +175,8 @@ table th
 }
 table th
 {
-    background-color: #0B60B0;
     border-radius: 6px;
-    color: #fff;
+    color: #0B60B0;
     border: none;
     font-size: 17px;
 }
@@ -195,9 +193,9 @@ table th
     background: rgba(255, 99, 71, 0.308);
     text-align: center;
 }
-ul 
+.fme
 {
-
+    font-size: 20px;
 }
 li
 {
@@ -208,7 +206,7 @@ li
 span
 {
     color: tomato;
-
+    font-weight: 600;
 }
 footer
 {
