@@ -54,7 +54,7 @@ header a
 .roadmap
 {
     width: 100%;
-    background: #0B60B0;
+    background: linear-gradient(to left , #0B60B0, #0bb050);
     height: calc(70vh - 50px);
 }
 .roadmap h1
@@ -98,10 +98,14 @@ header a
 }
 .heading
 {
-    color: #0B60B0;
     text-align: center;
     padding: 20px ;
     font-size: 22px;
+    background: linear-gradient(to left , #0B60B0, #0bb050);
+    font-size: 25px;
+    font-weight: 600;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
 
 }
 .websites
@@ -208,7 +212,6 @@ span
     color: tomato;
     font-weight: 600;
 }
-
 footer
 {
     text-align: center;
